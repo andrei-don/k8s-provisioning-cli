@@ -250,15 +250,15 @@ Answer: The *--dual-mode* flag enables you to have 2 clusters running simultaneo
 
 This build uses the following component versions:
 
-kubeadm, kubectl, kubelet: 1.29.1
+kubeadm, kubectl, kubelet: 1.30.2
 
 
-containerd: 1.6.27  https://github.com/containerd/containerd/releases/download/v1.6.27/containerd-1.6.27-linux-arm64.tar.gz
+containerd: 1.7.18  https://github.com/containerd/containerd/releases/download/v1.7.18/containerd-1.7.18-linux-arm64.tar.gz
 
 
-crictl: 1.29.0  https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.29.0/crictl-v1.29.0-linux-arm64.tar.gz
+crictl: 1.30.0  https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.30.0/crictl-v1.30.0-linux-arm64.tar.gz
 
 
 runc: 1.1.7
 
-k3s: v1.29.1+k3s2
+k3s: v1.30.1+k3s1

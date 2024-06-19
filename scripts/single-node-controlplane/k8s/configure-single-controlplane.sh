@@ -9,7 +9,7 @@ cat > kubeadm-config.yaml << EOF
 # kubeadm-config.yaml
 kind: ClusterConfiguration
 apiVersion: kubeadm.k8s.io/v1beta3
-kubernetesVersion: v1.29.1
+kubernetesVersion: v1.30.2
 networking:
   serviceSubnet: "10.96.0.0/16"
   podSubnet: "10.244.0.0/16"

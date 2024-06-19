@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-INSTALL_K3S_VERSION='v1.29.1+k3s2'
+INSTALL_K3S_VERSION='v1.30.1+k3s1'
 IP=$(ip a | grep enp0s1 | grep inet | awk '{print $2}' | cut -d / -f 1)
 curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=$INSTALL_K3S_VERSION sh -
 mkdir ~/.kube
